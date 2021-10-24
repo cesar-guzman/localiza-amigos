@@ -2,6 +2,9 @@ package com.unitec.amigos;
 
 import org.springframework.data.annotation.Id;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true) // Garantiza  que si algun campo no coincide sea ignorado y no se guarda
 public class Usuario {
 
     private String nombre;
