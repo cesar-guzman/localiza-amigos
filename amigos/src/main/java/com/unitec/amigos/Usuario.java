@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown = true) // Garantiza  que si algun campo no coincide sea ignorado y no se guarda
+@JsonIgnoreProperties(ignoreUnknown = true) // Garantiza  que si algun campo no coincide sea ignorado y no se guarda pero el registro aparecera como null
 public class Usuario {
 
     private String nombre;
