@@ -44,7 +44,7 @@
 	<build>
 		<plugins>
 			<plugin>
-				<!-- GIT POM FILE-->
+				<!-- GIT POM FILE test-->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
